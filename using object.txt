@@ -1,0 +1,16 @@
+class swaping 
+    {
+        public void swap()
+        {
+            int a=10,b=20,temp;
+            temp=a;
+            a=b;
+            b=temp;
+            System.out.println(a+" "+b);
+        }
+    public static void main(String[] args)
+    {
+        swaping obj=new swaping();
+        obj.swap();
+    }
+}

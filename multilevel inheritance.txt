@@ -1,0 +1,21 @@
+class GF
+{
+    void GF1(){System.out.println("gfname");}
+}
+class father extends GF
+{
+    void f1(){System.out.println("\nfathername");}
+}
+class son extends father
+{
+    void s1(){System.out.println("\nsonname");}
+}
+class relationship
+{
+    public static void main(String args[])
+    {
+    son r=new son();
+    r.s1();
+    r.GF1();
+    }
+}

@@ -1,0 +1,25 @@
+class animal
+{
+    void a(){System.out.println("animal");}
+}
+class cat extends animal
+{
+    void c(){System.out.println("\ncat");}
+}
+class dog extends animal
+{
+    void d(){System.out.println("\nsonname");}
+}
+class tiger extends animal
+{
+    void t(){System.out.println("\ntiger");}
+}
+class ani
+{
+    public static void main(String args[])
+    {
+    tiger r=new tiger();
+    r.t();
+    r.d();
+    }
+}
